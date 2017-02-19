@@ -4,7 +4,6 @@
   <head>
       <meta charset="utf-8">
       <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-      <link href="css/tour.css" rel="stylesheet" type="text/css"/>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
       <title>Accessible Frog</title>
@@ -19,27 +18,30 @@
       </ul>
     </div>
 
-    <header>
-    </header>
+      <header> 
+            <h1 id="header-title1">ACCESSIBLE FROG</h1>
+             <h2 id="header-title2">we make awesome music</h2>
+      </header>  
 
-    <main >
-      <div class="card">
-        <div class="flex">
-        <!-- The following images are decorative for this project. -->
-        <!-- Please see the project instructions for information on how to handle these. -->
+    <main>
+
+       <div class="card">
+        <div class="tourHeading">
           <img class="pick" src= "img/guitar_pick.png" alt="">
-          <h1 class= "heading">Tour Dates</h1>
+          <h1 class= "heading" id="tdheading">Tour Dates</h1>
           <img class="pick" src= "img/guitar_pick.png" alt="">
-          
-          <table>
-             <caption role="main">This Table displays the tour dates, locations and venues.</caption>
-             
-            <tr>
-                <th scope="col">Date  </th>
-                <th  scope="col">Location  </th>
-                <th  scope="col"> Venue</th>
-            </tr>
+        </div> 
             
+       
+          <table class="center">
+            <caption role="main">This Table displays the tour dates, locations and venues.</caption>
+        <thead>
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Location</th>
+                <th scope="col"> Venue</th>
+            </tr>
+        </thead>
             <tr>
                 <td>Mar 10 - 12  </td>
                 <td>The Warfield  </td>
@@ -64,7 +66,7 @@
          </table>
          
         </div>
-      </div>
+    
     </main>
     
     <footer   role="contentinfo">

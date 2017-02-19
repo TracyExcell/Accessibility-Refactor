@@ -4,7 +4,6 @@
   <head>
     <meta charset="utf-8">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/survey.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <title>Accessible Frog</title>
@@ -19,7 +18,9 @@
       </ul>
     </div>
 
-    <header>
+     <header> 
+        <h1 id="header-title1">ACCESSIBLE FROG</h1>
+        <h2 id="header-title2">we make awesome music</h2>
     </header>
 
     <main>
@@ -57,8 +58,8 @@
                   <option value="11">This is For You</option>
               </select>
              </fieldset>
-              <h2>What is your favorite song:</h2>
-              <textarea title="Text area to type in favourite song"></textarea>
+              <h2>What is your favorite song?:</h2>
+              <textarea title="Text area to type in favourite song" id="songText"></textarea>
             </form>
           </div>
         </div>
@@ -75,8 +76,8 @@
                   <p><label for="email">Email: </label><input type ="email" id="email" name="textfield"></p>
                   <p><label for="email2">Retype Email: </label><input type ="email" id="email2" name="textfield"></p>
                     
-                  <button type="submit" aria-describedby="signUp" role="button">Sign Up</button>
-                    <p id="signUp">When you click the submit button your information will be recorded, and you will be emailed the Newsletter each month.</p>
+                  <button type="submit" aria-describedby="signUp" role="button" id="signUp">Sign Up</button>
+                    <p>When you click the submit button your information will be recorded, and you will be emailed the Newsletter each month.</p>
                </fieldset>
               </form>
             </div>
